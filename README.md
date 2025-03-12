@@ -1,0 +1,1 @@
+FastAPI Named Entity Recognition (NER)
