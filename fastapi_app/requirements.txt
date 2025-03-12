@@ -1,0 +1,7 @@
+fastapi==0.115.11
+pydantic==2.10.6
+transformers==4.49.0
+uvicorn==0.34.0
+numpy==2.2.3
+onnx==1.17.0
+onnxruntime==1.21.0
