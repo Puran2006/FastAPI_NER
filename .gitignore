@@ -9,6 +9,3 @@ model_preparation/results/
 fastapi_app/logs/app.log
 fastapi_app/__pycache__/
 fastapi_app/pkl_files/
-
-#Ignore saved_pkl due to large size
-saved_pkl/*.onnx
