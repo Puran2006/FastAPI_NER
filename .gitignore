@@ -8,4 +8,4 @@ model_preparation/results/
 # Ignore log file in fastapi_app directory
 fastapi_app/logs/app.log
 fastapi_app/__pycache__/
-fastapi_app/pkl_files/
+fastapi_app/pkl_files/*.onxx
