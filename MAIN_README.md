@@ -176,12 +176,12 @@ This launches at accessible at: [http://127.0.0.1:8501](http://127.0.0.1:8501)  
 
 ## 🚀 Deployment Options
 You can deploy this FastAPI service on:
-- **AWS Lambda**
+- **AWS EC2**
 - **Google Cloud Run**
 - **Heroku**
 - **Azure Functions**
 
-Refer to cloud-specific guides for exact steps.
+A proper Deployement strategy Using AWS EC2 is given in the Deployment_strategy.md in this repo itself
 
 ---
 
