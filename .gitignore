@@ -1,0 +1,14 @@
+# Ignore virtual environment directory
+myenv/
+
+# Ignore specific files in model_preparation directory
+model_preparation/best_bert_ner_model/
+model_preparation/results/
+
+# Ignore log file in fastapi_app directory
+fastapi_app/logs/app.log
+fastapi_app/__pycache__/
+fastapi_app/pkl_files/
+
+#Ignore saved_pkl due to large size
+saved_pkl/*.onnx
