@@ -1,7 +1,8 @@
 # Jupyter Notebook Setup for FastAPI_NER
 
 This guide provides a detailed setup for running the **Named Entity Recognition (NER) model** in Jupyter Notebook. It covers installing dependencies, setting up the environment, training the model, and converting it to ONNX.
-
+### Prerequisites
+**Python3.10.0, jupyter, ipykernel**
 
 Go to the Folder/Directory where you want to Clone the project
 ### 1️⃣ Clone the Repository
