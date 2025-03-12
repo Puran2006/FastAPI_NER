@@ -78,13 +78,15 @@ jupyter notebook
 
 Then, open and run the **`model_preparation/model_training.ipynb`** notebook step by step.
 
+The trained model and tokenizer are stored in the saved_pkl folder.
+
 ## 6️⃣ Convert Trained Model to ONNX
 
 Once the training is complete, convert the model to ONNX format for optimized deployment:
 ```sh
 python model_preparation/convert_to_onnx.py
 ```
-
+The ner_model.onnx model is also stored in the saved_pkl fold
 ### **Why Convert to ONNX?**
 - Reduces **Docker image size** when deploying with FastAPI.
 - Optimized for inference across different platforms.
